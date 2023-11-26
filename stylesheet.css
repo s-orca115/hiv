@@ -1,0 +1,146 @@
+body {
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.screen {
+	width: 460px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #ffc9d2;
+}
+
+.header {
+	background-color: #ffffff;
+	color: #ff8fa2;
+	width: 460px;
+	height: 75px;
+	position: fixed;
+}
+
+.header-logo {
+	font-size: 24px;
+	padding: 20px 20px;
+	text-align: center;
+}
+
+.message {
+	background-image: url(message.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 675px;
+	border-bottom: 3px dotted #ff8fa2;
+}
+
+.copy {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	border-bottom: 3px dotted #ff8fa2;
+}
+
+.copy-comment {
+	background-color: rgba(255,255,255,0.3);
+	margin: 50px 30px;
+	border-radius: 30px;
+	background-size: 400px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.learn {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 3px dotted #ff8fa2;
+}
+
+li {
+	list-style: none;
+	padding: 20px;
+}
+
+.learn-contents {
+	text-align: center;
+	background-color: #ffffff;
+	margin: 50px 30px;
+	border-radius: 30px;
+	background-size: 400px;
+	padding: 20px;
+}
+
+.consult {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 3px dotted #ff8fa2;
+}
+
+.consult-contents {
+	background-color: rgba(255,255,255,0.3);
+	margin: 50px 30px 0px 30px;
+	border-radius: 30px;
+	background-size: 400px;
+	padding-bottom: 20px;
+}
+
+.tel {
+	font-size: 36px;
+}
+
+.search {
+	padding-top: 50px;
+	border-bottom: 3px dotted #ff8fa2;
+}
+
+.search-button {
+	text-align: center;
+	background-color: #ffffff;
+	margin: 50px 30px;
+	border-radius: 30px;
+	background-size: 400px;
+	padding: 20px;
+}
+
+.footer {
+	background-color: #ffffff;
+	color: #ff8fa2;
+	width: 460px;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px; 
+	font-size: 14px;
+}
+
+
+@media screen and (min-width: 600px) {
+	body {
+		font-family: 'Zen Kurenaido', sans-serif;
+		background-color: #ff8fa2;
+	}
+
+	.background {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #ffffff;
+		opacity: 0.4;
+		z-index: -1;
+		background-image:  radial-gradient(#ff8fa2 2px, transparent 2px), radial-gradient(#ff8fa2 2px, #ffffff 2px);
+		background-size: 40px 40px;
+		background-position: 0 0,20px 20px;
+	}
+}
